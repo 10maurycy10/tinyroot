@@ -96,7 +96,7 @@ Finally you can run this one liner to create an initramfs:
 
 ```
 find root -printf "%P\0" | cpio --null -o -H newc -D root | gzip > initramfs.cpio.gz
-
+```
 
 # Create image
 
@@ -108,7 +108,7 @@ First create a direcory for the iso fs:
 
 ```
 mkdir isoroot
-``
+```
 
 Then copy the kernel and initramfs:
 
