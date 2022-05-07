@@ -138,7 +138,6 @@ finally you can run:
 
 ```
 mkisofs -no-pad -o tinyroot.iso -b isolinux.bin -no-emul-boot -boot-load-size 4 -boot-info-table isoroot
-isohybrid tinyroot.iso
 ```
 
 The iso should be at ``tinyroot.iso``
