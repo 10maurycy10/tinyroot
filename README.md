@@ -144,7 +144,3 @@ The iso should be at ``tinyroot.iso``
 
 
 You can test it with QEMU: ``qemu-system-x68_64 -cdrom tinyroot.iso``
-
-## Disk image
-
-###TODO
