@@ -87,7 +87,7 @@ ln -sr root/bin/sh root/bin/busybox
 Then create ``root/init``, A basic one follows (remember to ``chmod a+x root/init``).
 
 ```sh
-#!/bin/init
+#!/bin/sh
 # Put anything you want to run on startup here
 /bin/sh
 ```
